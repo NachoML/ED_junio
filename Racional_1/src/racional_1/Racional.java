@@ -6,7 +6,7 @@ package racional_1;
 public class Racional
 {
   private int numerounoparagit;
-  private int numerodos;
+  private int numerodosparanetbeans;
 
     /**
      *
