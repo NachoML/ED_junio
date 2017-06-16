@@ -5,7 +5,7 @@ package racional_1;
  */
 public class Racional
 {
-  private int numerouno;
+  private int numerounoparagit;
   private int numerodos;
 
     /**
@@ -13,7 +13,7 @@ public class Racional
      */
     public Racional() 
   {
-    this.numerouno = 0;
+    this.numerounoparagit = 0;
     this.numerodos = 1;
   }
 
@@ -23,7 +23,7 @@ public class Racional
      */
     public Racional( int num ) 
   {
-    this.numerouno = num;
+    this.numerounoparagit = num;
     this.numerodos = 1;
   }
 
@@ -34,7 +34,7 @@ public class Racional
      */
     public Racional( int num, int den ) 
   {
-    this.numerouno = num;
+    this.numerounoparagit = num;
     this.numerodos = den;
     if ( this.numerodos == 0 )
     {
@@ -43,7 +43,7 @@ public class Racional
     }
     if ( this.numerodos < 0 )
     {
-      this.numerouno = -this.numerouno;
+      this.numerounoparagit = -this.numerounoparagit;
       this.numerodos = -this.numerodos;
     }
     
@@ -55,7 +55,7 @@ public class Racional
      */
     public Racional( Racional r ) 
   {
-     this.numerouno = r.numerouno;
+     this.numerounoparagit = r.numerounoparagit;
      this.numerodos = r.numerodos;
   }
 
@@ -148,14 +148,14 @@ public class Racional
      * @return devuelve el valor del atributo numerouno
      */
     public int getNumerouno() {
-        return numerouno;
+        return numerounoparagit;
     }
 
     /**
      * @param numerouno asigna valor al atributo numerouno
      */
     public void setNumerouno(int numerouno) {
-        this.numerouno = numerouno;
+        this.numerounoparagit = numerouno;
     }
     /**
      * @return the numerodos
